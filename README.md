@@ -10,9 +10,7 @@ We see this as a way to integrate higher levels of volatility into our strategy,
 
 We implement a walk-forward design with a 5-year rolling training window and a 1-year test window
 (date debut - date fin coverage). Daily predictions are translated into long/short SPY signals and reported
-at least at a monthly frequency. Transparency is ensured through clear documentation of feature enginee-
-ring (including revision-aware handling of macro releases and fixed-maturity interpolation for 3-month vola-
-tility), model selection (OLS, stepwise AIC, LASSO/Relaxed LASSO, Ridge, bagging, Random Forest ; plus
+at least at a monthly frequency. Transparency is ensured through clear documentation of feature engineering (including revision-aware handling of macro releases and fixed-maturity interpolation for 3-month volatility), model selection (OLS, stepwise AIC, LASSO/Relaxed LASSO, Ridge, bagging, Random Forest ; plus
 classification variants), and evaluation (out-of-sample R2, RMSE, annualized return/volatility, Sharpe, max
 drawdown).
 
